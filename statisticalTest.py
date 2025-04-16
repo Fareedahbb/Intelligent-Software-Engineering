@@ -82,9 +82,9 @@ def main():
     print("\n--- Paired t-test on Average MAE (LR vs RF) ---")
     print(f"t-statistic = {t_stat:.4f}, p-value = {p_value:.4f}")
     if p_value < 0.05:
-        print("✅ The difference in MAE between Linear Regression and Random Forest is statistically significant.")
+        print("The difference in MAE between Linear Regression and Random Forest is statistically significant.")
     else:
-        print("❌ No statistically significant difference in MAE between Linear Regression and Random Forest.")
+        print("No statistically significant difference in MAE between Linear Regression and Random Forest.")
 
 if __name__ == "__main__":
     main()
